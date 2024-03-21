@@ -275,4 +275,59 @@ let incr = 10,
 //         break;
 // }
 
+
 // 21 //
+
+
+// const hamb = true;
+// const fries = true;
+
+// if (hamb && fries) {
+//     console.log('good');
+// } 
+
+// console.log((hamb && fries));
+
+// const hamb = 3;
+// const fries = 1;
+// const cola = 0;
+
+// console.log(hamb === 3 && cola && fries)
+
+// console.log(1 && 0);
+// console.log(1 && 5);
+// console.log(null && 5);
+// console.log(0 && 'dwedscsfd');
+
+// if (hamb === 3 && cola === 1 && fries) {
+//     console.log('we will stay here');
+// } else {
+//     console.log('we left');
+// }
+
+
+//
+
+
+// const hamb = 3,
+//     fries = 0,
+//     cola = 0,
+//     nuggets = 2;
+
+// if (hamb === 3 && cola === 2 || fries === 3 && nuggets) {
+//     console.log('good');
+// } else {
+//     console.log('we left');
+// }
+
+
+//
+
+
+// let johnReport, alexReport, samReport, maryReport = 'done';
+
+// console.log(johnReport || alexReport || samReport || maryReport);
+
+
+// 22 //
+
