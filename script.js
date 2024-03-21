@@ -1,6 +1,8 @@
 // console.log(1);
 
-// 9 //
+
+///// 9 /////
+
 
 // let number = 10;
 // const leftBorderWidth = 5;
@@ -8,7 +10,9 @@
 // number = 120;
 // console.log(number);
 
-// 
+
+////////// 
+
 
 // const obj = {
 //     a: 50
@@ -18,7 +22,9 @@
 
 // console.log(obj);
 
-//
+
+//////////
+
 
 // console.log(name);
 // var name = 'lev';
@@ -29,31 +35,43 @@
 
 // console.log(result);
 
-//
+
+//////////
+
 
 // // тут говорилось про 'use strict'
 // a = 15;
 // console.log(a);
 
-// 11 //
+
+///// 11 /////
+
 
 // let number = 10.1;
 
 // console.log(4/0);
 // console.log('string' * 89);
 
-//
+
+//////////
+
+
 // Скобки
 // const person = 'Kitty';
 // const person = "Kitty";
 // const person = `Kitty`;
 
-// 
+
+//////////
+
+
 // Булиевые значения
 // const bool = true;
 // const bool = false;
 
-//
+
+//////////
+
 
 //null & undefined
 // console.log(something);
@@ -61,7 +79,9 @@
 // let und;
 // console.log(und);
 
-//
+
+//////////
+
 
 //Объект
 //Свойства объекта
@@ -74,12 +94,16 @@
 // console.log(obj.name);
 // console.log(obj["name"]);
 
-//
+
+//////////
+
 
 // let arr = ['plum.png', 'or.jpeg', 6, 'apple.bmp', {}, []];
 // console.log(arr[3]);
 
-// 12 //
+
+///// 12 /////
+
 
 //Массив - сущность, в которой объекты имеют порядковые номера (порядок элементов)
 // const arr = ['a', 'b', 'c'];
@@ -114,7 +138,9 @@
 
 // console.log(arrObj[1]);
 
-//
+
+//////////
+
 
 //Объект - элемент, в котором объектам присваиваются свойства. Пара: ключ-значение
 // const obj = {
@@ -124,19 +150,25 @@
 
 //Массив - частный случай объекта
 
-// 13 //
+
+///// 13 /////
+
 
 // alert('hello');
 
 // const result = confirm('are you here?');
 // console.log(result);
 
-//
+
+//////////
+
 
 // const answer = prompt('vam est 18?' , '18');
 // console.log(typeof(answer));
 
-//
+
+//////////
+
 
 // const answers = [];
 
@@ -147,7 +179,9 @@
 // console.log(typeof(answers));
 // console.log(typeof(null));
 
-// 14 //
+
+///// 14 /////
+
 
 // const category = 'toys';
 
@@ -157,13 +191,15 @@
 
 // alert(`hello, ${user}`);
 
-// 15 //
+
+///// 15 /////
+
 
 // console.log('arr' + ' - object');
 // console.log(4 + ' - object');
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+    // decr = 10;
 
 // incr++;
 // ++incr;
@@ -187,26 +223,32 @@ let incr = 10,
 
 // console.log(isChecked && !isClose);
 
-// 16 //
+
+///// 16 /////
+
 
 // Работа с Git и GitHub
 
-// 17 //
+
+///// 17 /////
+
 
 // Работа с Git
 
-// 18 //
 
-// 19 //
+///// 18 /////
 
 
-// 1
+///// 19 /////
+
+
+////////// 1
 
 
 // const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 
-// 2
+////////// 2
 
 
 // const personalMovieDB = {
@@ -218,7 +260,7 @@ let incr = 10,
 // };
 
 
-// 3 
+////////// 3 
 
 
 // const a = prompt('Один из последних просмотренных фильмов?', ''),
@@ -232,7 +274,7 @@ let incr = 10,
 //     console.log(personalMovieDB);
 
 
-// 20 //
+///// 20 /////
 
 
 // if (4 == 9) {
@@ -241,7 +283,9 @@ let incr = 10,
 //     console.log('error');
 // }
 
-//
+
+//////////
+
 
 // const num = 1000;
 
@@ -256,7 +300,8 @@ let incr = 10,
 // (num === 50) ? console.log('ok') : console.log('error');
 
 
-//
+//////////
+
 
 // const num = 50;
 
@@ -276,7 +321,7 @@ let incr = 10,
 // }
 
 
-// 21 //
+///// 21 /////
 
 
 // const hamb = true;
@@ -306,7 +351,7 @@ let incr = 10,
 // }
 
 
-//
+//////////
 
 
 // const hamb = 3,
@@ -321,7 +366,7 @@ let incr = 10,
 // }
 
 
-//
+//////////
 
 
 // let johnReport, alexReport, samReport, maryReport = 'done';
@@ -329,16 +374,19 @@ let incr = 10,
 // console.log(johnReport || alexReport || samReport || maryReport);
 
 
-// 22 //
+///// 22 /////
 
-let num = 50;
+
+// let num = 50;
 
 // while (num <= 55) {
 //     console.log(num);
 //     num++;
 // }
 
-//
+
+//////////
+
 
 // do {
 //     console.log(num);
@@ -352,7 +400,7 @@ let num = 50;
 // }
 
 
-//
+//////////
 
 
 // for (let i = 1; i < 10; i++) {
@@ -363,7 +411,8 @@ let num = 50;
 // }
 
 
-//
+//////////
+
 
 // for (let i = 1; i < 10; i++) {
 //     if (i === 6) {
@@ -374,5 +423,57 @@ let num = 50;
 // }
 
 
-// 23 //
+///// 23 /////
+
+
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(j);
+//     }
+// }
+
+
+//////////
+
+
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+
+
+// let result = '';
+// const length = 7;
+
+// for (let i = 1; i < length; i++) {
+    
+//     for (let j = 0; j < i; j++) {
+//         result += '*';
+//     }
+
+//     result += '\n';
+// }
+
+// console.log(result);
+
+
+//////////
+
+
+// first: for (let i = 0; i < 3; i++) {
+//     console.log(`First level: ${i}`);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(`Second level: ${j}`);
+//         for (let k = 0; k < 3; k++) {
+//             if (k === 2) continue first;
+//             console.log(`Third level: ${k}`);
+//         }
+//     }
+// }
+
+
+///// 24 /////
 
