@@ -579,7 +579,7 @@
 
 
 ///// 27 ///// Return
- 
+
 
 // const usdCurr = 28;
 // const discount = 0.9;
@@ -1111,3 +1111,204 @@
 ///// 36 ///// Основы ООП, прототипно-ориентированное программирование
 
 
+// let str = 'some';
+// let strObj = new String(str);
+
+// console.log(typeof(str));
+// console.log(typeof(strObj));
+
+
+//////////
+
+
+// console.dir([1, 2, 3]);
+
+
+//////////
+
+
+// const soldier = {
+//     health: 400,
+//     armor: 100,
+//     sayHello: function() {
+//         console.log('hello');
+//     }
+// };
+
+// const john = {
+//     health: 100
+// };
+
+// john.__proto__ = soldier;
+
+// Object.setPrototypeOf(john, soldier);
+// // console.log(john.armor);
+
+// john.sayHello();
+
+
+//////////
+
+
+// const soldier = {
+//     health: 400,
+//     armor: 100,
+//     sayHello: function() {
+//         console.log('hello');
+//     }
+// };
+
+
+// const john = Object.create(soldier);
+
+// john.sayHello();
+
+
+///// 37 ///// PRACTICE
+
+
+// const personalMovieDB = {
+//     count: 0,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false,
+//     start: function () {
+//         personalMovieDB.count = +prompt('Сколько фильмов вы уже посмотрели?', '');
+
+//         while (personalMovieDB.count == '' || personalMovieDB.count == null || isNaN(personalMovieDB.count)) {
+//             personalMovieDB.count = +prompt('Сколько фильмов вы уже посмотрели?', '');
+//         }
+//     },
+//     rememberMyFilms: function () {
+//         for (let i = 0; i < 2; i++) {
+//             const a = prompt('Один из последних просмотренных фильмов?', ''),
+//                 b = prompt('На сколько оцените его?', '');
+
+//             if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+//                 personalMovieDB.movies[a] = b;
+//                 console.log('done');
+//             } else {
+//                 console.log('error');
+//                 i--;
+//             }
+//         }
+//     },
+//     detectPersonalLevel: function () {
+//         if (personalMovieDB.count < 10) {
+//             console.log("Просмотрено довольно мало фильмов");
+//         } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//             console.log("Вы классический зритель");
+//         } else if (personalMovieDB.count >= 30) {
+//             console.log("Вы киноман");
+//         } else {
+//             console.log("Произошла ошибка");
+//         }
+//     },
+//     showMyDB: function (hidden) {
+//         if (!hidden) {
+//             console.log(personalMovieDB);
+//         }
+//     },
+//     toggleVisibleMyDB: function () {
+//         if (personalMovieDB.privat) {
+//             personalMovieDB.privat = false;
+//         } else {
+//             personalMovieDB.privat = true;
+//         }
+//     },
+//     writeYourGenres: function () {
+//         for (let i = 1; i < 2; i++) {
+//             let genre = prompt(`Ваш любимый жанр под номером ${i}`);
+
+//             if (genre === '' || genre == null) {
+//                 console.log('Вы ввели некорректные данные или не ввели их вовсе');
+//                 i--;
+//             } else {
+//                 personalMovieDB.genres[i - 1] = genre;
+//             }
+//         }
+
+//         personalMovieDB.genres.forEach((item, i) => {
+//             console.log(`Любимый жанр ${i + 1} - это ${item}`);
+//         });
+//     }
+// };
+
+
+///// 38 ///// Отлавливаем ошибки при помощи консоли
+
+///// 39 ///// Динамическая типизация в JS
+
+
+// to string
+
+
+///// 1 /////
+
+// console.log(typeof(String(null)));
+
+///// 2 /////
+
+// console.log(typeof(5 + ''));
+
+// const num = 5;
+
+// console.log('https://vk.com/catalog/' + num);
+
+// const fontSize = 26 + 'px';
+
+
+// to number
+
+
+///// 1 /////
+
+// console.log(typeof(Number('4')));
+
+///// 2 /////
+
+// console.log(typeof(+'5'));
+
+///// 3 /////
+
+// console.log(typeof(parseInt('15px', 10)));
+
+
+// let answ = +prompt('hello', '');
+
+
+// to boolean
+
+
+// 0, '', null, NaN, undefined
+
+///// 1 /////
+
+// let switcher = null;
+
+
+// if (switcher) {
+//     console.log('process...');
+// }
+
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log('process...');
+// }
+
+///// 2 /////
+
+
+// console.log(typeof(Boolean('4')));
+
+
+///// 3 /////
+
+
+// console.log(typeof(!!'4444'));
+
+
+///// 40 ///// Замыкание и лексическое окружение 
