@@ -1,7 +1,7 @@
 // console.log(1);
 
 
-///// 9 /////
+///// 9 ///// Переменные и строгий режим
 
 
 // let number = 10;
@@ -44,7 +44,7 @@
 // console.log(a);
 
 
-///// 11 /////
+///// 11 ///// Классификация типов данных в JS
 
 
 // let number = 10.1;
@@ -102,7 +102,7 @@
 // console.log(arr[3]);
 
 
-///// 12 /////
+///// 12 ///// Разница между объектами и массивами
 
 
 //Массив - сущность, в которой объекты имеют порядковые номера (порядок элементов)
@@ -151,7 +151,7 @@
 //Массив - частный случай объекта
 
 
-///// 13 /////
+///// 13 ///// Простое общение с пользователем
 
 
 // alert('hello');
@@ -180,7 +180,7 @@
 // console.log(typeof(null));
 
 
-///// 14 /////
+///// 14 ///// Интерполяция
 
 
 // const category = 'toys';
@@ -192,7 +192,7 @@
 // alert(`hello, ${user}`);
 
 
-///// 15 /////
+///// 15 ///// Операторы в JS
 
 
 // console.log('arr' + ' - object');
@@ -224,7 +224,7 @@
 // console.log(isChecked && !isClose);
 
 
-///// 16 /////
+///// 16 ///// 
 
 
 // Работа с Git и GitHub
@@ -274,7 +274,7 @@
 //     console.log(personalMovieDB);
 
 
-///// 20 /////
+///// 20 ///// Условия и циклы
 
 
 // if (4 == 9) {
@@ -321,7 +321,7 @@
 // }
 
 
-///// 21 /////
+///// 21 ///// Логические операторы
 
 
 // const hamb = true;
@@ -374,7 +374,7 @@
 // console.log(johnReport || alexReport || samReport || maryReport);
 
 
-///// 22 /////
+///// 22 ///// Циклы
 
 
 // let num = 50;
@@ -423,7 +423,7 @@
 // }
 
 
-///// 23 /////
+///// 23 ///// Цикл в цикле и метки
 
 
 // for (let i = 0; i < 3; i++) {
@@ -516,7 +516,7 @@
 // console.log(personalMovieDB);
 
 
-///// 25 /////
+///// 25 ///// Функции и стрелочные функции
 
 
 // let num = 20;
@@ -564,7 +564,7 @@
 // const calc = (a, b) => a + b;
 
 
-///// 26 /////
+///// 26 ///// Аргументы функций
 
 
 // const usdCurr = 28;
@@ -578,8 +578,8 @@
 // convert(500, eurCurr);
 
 
-///// 27 /////
-
+///// 27 ///// Return
+ 
 
 // const usdCurr = 28;
 // const discount = 0.9;
@@ -617,7 +617,7 @@
 // console.log(doNothing() === undefined);
 
 
-///// 28 /////
+///// 28 ///// Методы и свойства строк и чисел
 
 
 // const str = "test",
@@ -785,7 +785,7 @@
 // learnJS('JavaScript', done);
 
 
-///// 32 /////
+///// 32 ///// Объекты, деструктуризация объектов
 
 
 // const obj = new Object();
@@ -958,4 +958,156 @@
 // }
 
 
-///// 34 //////
+///// 35 ///// Передача по ссылке или по значению
+
+
+// let a = 5,
+//     b = a;
+
+// b = b + 5;
+
+// console.log(b);
+// console.log(a);
+
+// const obj = {
+//     a: 5,
+//     b: 1
+// };
+
+// const copy = obj; // Передаёт ссылку на существующий объект
+
+// copy.a = 10;
+
+// console.log(copy);
+// console.log(obj);
+
+
+//////////
+
+
+// function copy(mainObj) {
+//     let objCopy = {};
+
+//     let key;
+//     for (key in mainObj) {
+//         objCopy[key] = mainObj[key];
+//     }
+//     return objCopy;
+// }
+
+// const numbers = {
+//     a: 2,
+//     b: 5,
+//     c: {
+//         x: 7,
+//         y: 4
+//     }
+// };
+
+// const newNumbers = copy(numbers);
+
+// newNumbers.a = 10;
+// newNumbers.c.x = 10;
+
+// console.log(newNumbers);
+// console.log(numbers);
+
+
+//////////
+
+// const numbers = {
+//     a: 2,
+//     b: 5,
+//     c: {
+//         x: 7,
+//         y: 4
+//     }
+// };
+
+// const add = {
+//     d: 17,
+//     e: 20
+// };
+
+// console.log(Object.assign(numbers, add));
+
+
+//////////
+
+
+// const numbers = {
+//     a: 2,
+//     b: 5,
+//     c: {
+//         x: 7,
+//         y: 4
+//     }
+// };
+
+// const add = {
+//     d: 17,
+//     e: 20
+// };
+
+// const clone = Object.assign({}, add);
+
+// clone.d = 20;
+
+// console.log(add);
+// console.log(clone);
+
+
+//////////
+
+
+// const oldArray = ['a', 'b', 'c'];
+// const newArray = oldArray.slice();
+
+// newArray[1] = 'aasasas'
+
+// console.log(newArray);
+// console.log(oldArray);
+
+
+//////////
+
+
+// const video = ['youtube', 'vimeo', 'rutube'],
+//     blogs = ['wordpress', 'tilda', 'liveJournal'],
+//     internet = [...video, ...blogs, 'vk', 'facebook'];
+
+// console.log(internet);
+
+
+//////////
+
+
+// function log(a, b, c) {
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+
+// const num = [2, 5, 7];
+
+// log(...num);
+
+
+//////////
+
+
+// const array = ['a', 'b'];
+
+// const newAarray = [...array];
+
+// const q = {
+//     one: 1,
+//     two: 2
+// };
+
+// const newObj = {...q};
+
+
+///// 36 ///// Основы ООП, прототипно-ориентированное программирование
+
+
