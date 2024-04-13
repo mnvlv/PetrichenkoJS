@@ -1,8 +1,6 @@
 // console.log(1);
 
-
 ///// 9 ///// Переменные и строгий режим
-
 
 // let number = 10;
 // const leftBorderWidth = 5;
@@ -10,9 +8,7 @@
 // number = 120;
 // console.log(number);
 
-
-////////// 
-
+//////////
 
 // const obj = {
 //     a: 50
@@ -22,9 +18,7 @@
 
 // console.log(obj);
 
-
 //////////
-
 
 // console.log(name);
 // var name = 'lev';
@@ -35,43 +29,33 @@
 
 // console.log(result);
 
-
 //////////
-
 
 // // тут говорилось про 'use strict'
 // a = 15;
 // console.log(a);
 
-
 ///// 11 ///// Классификация типов данных в JS
-
 
 // let number = 10.1;
 
 // console.log(4/0);
 // console.log('string' * 89);
 
-
 //////////
-
 
 // Скобки
 // const person = 'Kitty';
 // const person = "Kitty";
 // const person = `Kitty`;
 
-
 //////////
-
 
 // Булиевые значения
 // const bool = true;
 // const bool = false;
 
-
 //////////
-
 
 //null & undefined
 // console.log(something);
@@ -79,9 +63,7 @@
 // let und;
 // console.log(und);
 
-
 //////////
-
 
 //Объект
 //Свойства объекта
@@ -94,16 +76,12 @@
 // console.log(obj.name);
 // console.log(obj["name"]);
 
-
 //////////
-
 
 // let arr = ['plum.png', 'or.jpeg', 6, 'apple.bmp', {}, []];
 // console.log(arr[3]);
 
-
 ///// 12 ///// Разница между объектами и массивами
-
 
 //Массив - сущность, в которой объекты имеют порядковые номера (порядок элементов)
 // const arr = ['a', 'b', 'c'];
@@ -138,9 +116,7 @@
 
 // console.log(arrObj[1]);
 
-
 //////////
-
 
 //Объект - элемент, в котором объектам присваиваются свойства. Пара: ключ-значение
 // const obj = {
@@ -150,25 +126,19 @@
 
 //Массив - частный случай объекта
 
-
 ///// 13 ///// Простое общение с пользователем
-
 
 // alert('hello');
 
 // const result = confirm('are you here?');
 // console.log(result);
 
-
 //////////
-
 
 // const answer = prompt('vam est 18?' , '18');
 // console.log(typeof(answer));
 
-
 //////////
-
 
 // const answers = [];
 
@@ -179,9 +149,7 @@
 // console.log(typeof(answers));
 // console.log(typeof(null));
 
-
 ///// 14 ///// Интерполяция
-
 
 // const category = 'toys';
 
@@ -191,9 +159,7 @@
 
 // alert(`hello, ${user}`);
 
-
 ///// 15 ///// Операторы в JS
-
 
 // console.log('arr' + ' - object');
 // console.log(4 + ' - object');
@@ -223,33 +189,23 @@
 
 // console.log(isChecked && !isClose);
 
-
-///// 16 ///// 
-
+///// 16 /////
 
 // Работа с Git и GitHub
 
-
 ///// 17 /////
-
 
 // Работа с Git
 
-
 ///// 18 /////
-
 
 ///// 19 ///// PRACTICE /////
 
-
 ////////// 1
-
 
 // const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-
 ////////// 2
-
 
 // const personalMovieDB = {
 //     count: numberOfFilms,
@@ -259,9 +215,7 @@
 //     privat: false
 // };
 
-
 ////////// 3
-
 
 // const a = prompt('Один из последних просмотренных фильмов?', ''),
 //       b = prompt('На сколько оцените его?', ''),
@@ -273,9 +227,7 @@
 
 //     console.log(personalMovieDB);
 
-
 ///// 20 ///// Условия и циклы
-
 
 // if (4 == 9) {
 //     console.log('ok');
@@ -283,9 +235,7 @@
 //     console.log('error');
 // }
 
-
 //////////
-
 
 // const num = 1000;
 
@@ -299,9 +249,7 @@
 
 // (num === 50) ? console.log('ok') : console.log('error');
 
-
 //////////
-
 
 // const num = 50;
 
@@ -320,16 +268,14 @@
 //         break;
 // }
 
-
 ///// 21 ///// Логические операторы
-
 
 // const hamb = true;
 // const fries = true;
 
 // if (hamb && fries) {
 //     console.log('good');
-// } 
+// }
 
 // console.log((hamb && fries));
 
@@ -350,9 +296,7 @@
 //     console.log('we left');
 // }
 
-
 //////////
-
 
 // const hamb = 3,
 //     fries = 0,
@@ -365,17 +309,13 @@
 //     console.log('we left');
 // }
 
-
 //////////
-
 
 // let johnReport, alexReport, samReport, maryReport = 'done';
 
 // console.log(johnReport || alexReport || samReport || maryReport);
 
-
 ///// 22 ///// Циклы
-
 
 // let num = 50;
 
@@ -384,9 +324,7 @@
 //     num++;
 // }
 
-
 //////////
-
 
 // do {
 //     console.log(num);
@@ -399,9 +337,7 @@
 //     num++;
 // }
 
-
 //////////
-
 
 // for (let i = 1; i < 10; i++) {
 //     if (i === 6) {
@@ -410,9 +346,7 @@
 //     console.log(i);
 // }
 
-
 //////////
-
 
 // for (let i = 1; i < 10; i++) {
 //     if (i === 6) {
@@ -422,9 +356,7 @@
 //     console.log(i);
 // }
 
-
 ///// 23 ///// Цикл в цикле и метки
-
 
 // for (let i = 0; i < 3; i++) {
 //     console.log(i);
@@ -433,9 +365,7 @@
 //     }
 // }
 
-
 //////////
-
 
 // *
 // **
@@ -443,7 +373,6 @@
 // ****
 // *****
 // ******
-
 
 // let result = '';
 // const length = 7;
@@ -459,9 +388,7 @@
 
 // console.log(result);
 
-
 //////////
-
 
 // first: for (let i = 0; i < 3; i++) {
 //     console.log(`First level: ${i}`);
@@ -474,9 +401,7 @@
 //     }
 // }
 
-
 ///// 24 ///// PRACTICE /////
-
 
 // const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
@@ -504,7 +429,7 @@
 // }
 
 // if (personalMovieDB.count < 10) {
-//     console.log('Просмотрено довольно много фильмов');   
+//     console.log('Просмотрено довольно много фильмов');
 // } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
 //     console.log('Вы классический зритель');
 // } else if (personalMovieDB.count >= 30) {
@@ -515,9 +440,7 @@
 
 // console.log(personalMovieDB);
 
-
 ///// 25 ///// Функции и стрелочные функции
-
 
 // let num = 20;
 
@@ -538,9 +461,7 @@
 // console.log(calc(3, 2));
 // console.log(calc(5, 5));
 
-
 //////////
-
 
 // function ret() {
 //     let num = 50;
@@ -556,16 +477,12 @@
 
 // logger();
 
-
 //////////
-
 
 // const calc = (a, b) => { return a + b };
 // const calc = (a, b) => a + b;
 
-
 ///// 26 ///// Аргументы функций
-
 
 // const usdCurr = 28;
 // const eurCurr = 32;
@@ -577,9 +494,7 @@
 // convert(500, usdCurr);
 // convert(500, eurCurr);
 
-
 ///// 27 ///// Return
-
 
 // const usdCurr = 28;
 // const discount = 0.9;
@@ -595,9 +510,7 @@
 // const res = convert(500 , usdCurr);
 // promotion(res);
 
-
 //////////
-
 
 // function test() {
 //     for (let i = 0; i < 5; i++) {
@@ -609,16 +522,12 @@
 
 // test();
 
-
 //////////
-
 
 // function doNothing() {};
 // console.log(doNothing() === undefined);
 
-
 ///// 28 ///// Методы и свойства строк и чисел
-
 
 // const str = "test",
 //     arr = [1, 2, 3];
@@ -627,9 +536,7 @@
 // console.log(arr.length);
 // console.log(str[2]);
 
-
 //////////
-
 
 // const str = 'test';
 
@@ -641,37 +548,27 @@
 
 // console.log(fruit.indexOf('fruit'));
 
-
 //////////
-
 
 // const logg = 'hello wrld';
 
 // console.log(logg.slice(3, 5));
 
-
 //////////
-
 
 // console.log(logg.substring(7, 2))
 
-
 //////////
-
 
 // console.log(logg.substr(6, 3));
 
-
 //////////
-
 
 // const num = 12.2;
 
 // console.log(Math.round(num));
 
-
 //////////
-
 
 // const test = '12.2px';
 
@@ -679,11 +576,9 @@
 
 // console.log(parseFloat(test));
 
-
 ///// 29 ///// PRACTICE
 
-
-// let numberOfFilms; 
+// let numberOfFilms;
 
 // function start() {
 //     numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
@@ -723,7 +618,7 @@
 
 // function detectPersonalLevel() {
 //     if (personalMovieDB.count < 10) {
-//         console.log('Просмотрено довольно много фильмов');   
+//         console.log('Просмотрено довольно много фильмов');
 //     } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
 //         console.log('Вы классический зритель');
 //     } else if (personalMovieDB.count >= 30) {
@@ -746,14 +641,12 @@
 // function writeYourGenres() {
 //     for (let i = 1; i <= 3; i++) {
 //         personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
-//     } 
+//     }
 // }
 
 // writeYourGenres();
 
-
 ///// 31 ///// callback функции
-
 
 // function first() {
 //     //do smth
@@ -769,9 +662,7 @@
 // first();
 // second();
 
-
 //////////
-
 
 // function learnJS(lang, callback) {
 //     console.log(`I learning: ${lang}`);
@@ -784,9 +675,7 @@
 
 // learnJS('JavaScript', done);
 
-
 ///// 32 ///// Объекты, деструктуризация объектов
-
 
 // const obj = new Object();
 
@@ -806,17 +695,13 @@
 
 // console.log(options);
 
-
 //////////
-
 
 // for (let key in options) {
 //     console.log(`Свойство ${key} имеет значение ${options[key]}`);
 // }
 
-
 //////////
-
 
 // for (let key in options) {
 //     if (typeof (options[key]) === 'object') {
@@ -828,9 +713,7 @@
 //     }
 // }
 
-
 //////////
-
 
 // let counter = 0;
 // for (let key in options) {
@@ -847,9 +730,7 @@
 
 // console.log(counter);
 
-
 ///////////
-
 
 // const options = {
 //     name: 'test',
@@ -863,9 +744,7 @@
 
 // console.log(Object.keys(options).length);
 
-
 //////////
-
 
 // const options = {
 //     name: 'test',
@@ -884,9 +763,7 @@
 
 // console.log(Object.keys(options).length);
 
-
 ////////// деструктуризация
-
 
 // const options = {
 //     name: 'test',
@@ -906,10 +783,7 @@
 // const {border, bg} = options.colors;
 // console.log(border, bg);
 
-
 ///// 33 ///// Массивы и псевдомассивы
-
-
 
 // const arr = [0, 1, 2, 3, 6, 8];
 
@@ -935,18 +809,14 @@
 //     console.log(value);
 // }
 
-
 ////////////
-
 
 // const str = prompt('', '');
 // const products = str.split(', ');
 // products.sort();
 // console.log(products.join('; '));
 
-
 ////////////
-
 
 // const arr = [2, 13, 26, 10, 8]
 
@@ -957,9 +827,7 @@
 //     return a - b;
 // }
 
-
 ///// 35 ///// Передача по ссылке или по значению
-
 
 // let a = 5,
 //     b = a;
@@ -981,9 +849,7 @@
 // console.log(copy);
 // console.log(obj);
 
-
 //////////
-
 
 // function copy(mainObj) {
 //     let objCopy = {};
@@ -1012,7 +878,6 @@
 // console.log(newNumbers);
 // console.log(numbers);
 
-
 //////////
 
 // const numbers = {
@@ -1031,9 +896,7 @@
 
 // console.log(Object.assign(numbers, add));
 
-
 //////////
-
 
 // const numbers = {
 //     a: 2,
@@ -1056,9 +919,7 @@
 // console.log(add);
 // console.log(clone);
 
-
 //////////
-
 
 // const oldArray = ['a', 'b', 'c'];
 // const newArray = oldArray.slice();
@@ -1068,9 +929,7 @@
 // console.log(newArray);
 // console.log(oldArray);
 
-
 //////////
-
 
 // const video = ['youtube', 'vimeo', 'rutube'],
 //     blogs = ['wordpress', 'tilda', 'liveJournal'],
@@ -1078,9 +937,7 @@
 
 // console.log(internet);
 
-
 //////////
-
 
 // function log(a, b, c) {
 //     console.log(a);
@@ -1092,9 +949,7 @@
 
 // log(...num);
 
-
 //////////
-
 
 // const array = ['a', 'b'];
 
@@ -1107,9 +962,7 @@
 
 // const newObj = {...q};
 
-
 ///// 36 ///// Основы ООП, прототипно-ориентированное программирование
-
 
 // let str = 'some';
 // let strObj = new String(str);
@@ -1117,15 +970,11 @@
 // console.log(typeof(str));
 // console.log(typeof(strObj));
 
-
 //////////
-
 
 // console.dir([1, 2, 3]);
 
-
 //////////
-
 
 // const soldier = {
 //     health: 400,
@@ -1146,9 +995,7 @@
 
 // john.sayHello();
 
-
 //////////
-
 
 // const soldier = {
 //     health: 400,
@@ -1158,14 +1005,11 @@
 //     }
 // };
 
-
 // const john = Object.create(soldier);
 
 // john.sayHello();
 
-
 ///// 37 ///// PRACTICE
-
 
 // const personalMovieDB = {
 //     count: 0,
@@ -1235,14 +1079,11 @@
 //     }
 // };
 
-
 ///// 38 ///// Отлавливаем ошибки при помощи консоли
 
 ///// 39 ///// Динамическая типизация в JS
 
-
 // to string
-
 
 ///// 1 /////
 
@@ -1258,9 +1099,7 @@
 
 // const fontSize = 26 + 'px';
 
-
 // to number
-
 
 ///// 1 /////
 
@@ -1274,12 +1113,9 @@
 
 // console.log(typeof(parseInt('15px', 10)));
 
-
 // let answ = +prompt('hello', '');
 
-
 // to boolean
-
 
 // 0, '', null, NaN, undefined
 
@@ -1287,11 +1123,9 @@
 
 // let switcher = null;
 
-
 // if (switcher) {
 //     console.log('process...');
 // }
-
 
 // switcher = 1;
 
@@ -1301,23 +1135,18 @@
 
 ///// 2 /////
 
-
 // console.log(typeof(Boolean('4')));
-
 
 ///// 3 /////
 
-
 // console.log(typeof(!!'4444'));
 
-
-///// 40 ///// Замыкание и лексическое окружение 
-
+///// 40 ///// Замыкание и лексическое окружение
 
 // let number = 5; debugger
 
 // function logNumber() {
-// let number = 4; 
+// let number = 4;
 //     console.log(number); debugger
 // }
 
@@ -1329,9 +1158,7 @@
 
 // logNumber(); debugger
 
-
 ///////////
-
 
 // function createCounter() {
 //     let counter = 0;
@@ -1352,9 +1179,7 @@
 
 // console.log(c1, c2, c3);
 
-
 ///// 41 ///// Задачи с собеседований
-
 
 // let x = 5;
 // alert(x++);
@@ -1363,84 +1188,214 @@
 
 ///////////
 
-
 // console.log([] + false - null + true); // false - NaN
 
-
 //////////
-
 
 // let y = 1;
 // let x = y = 2;
 // alert(x);
 
-
 //////////
-
 
 // console.log([] + 1 + 2); // 12
 
-
 //////////
-
 
 // alert('1'[0]);
 
-
 //////////
-
 
 // console.log(2 && 1 && null && 0 && undefined);
-//И запинается на лжи 
+//И запинается на лжи
 //ИЛИ запинается на правде
 
-
 //////////
-
 
 // console.log(!!(1 && 2) === (1 && 2));
 
-
 //////////
-
 
 // alert(null || 2 && 3 || 4);
 
-
 //////////
-
 
 // const  a = [1, 2, 3];
 // const  b = [1, 2, 3];
 
 // console.log(a == b);
 
-
 //////////
-
 
 // alert(+'infinity'); //NaN
 
-
 //////////
-
 
 // console.log('Ежик' > 'яблоко'); // false
 
-
 //////////
-
 
 // console.log(0 || '' || 2 || undefined || true || false);
 
-
-
 ///// 42 ///// Получение элементов со страницы
-
 
 //Лежит в отдельном проекте
 
-
 ///// 43 ///// Дейсвтия с элементами на странице
 //В отдельном файле
+//44-45
 
+///// 46 ///// Навигация по DOM - элементам
+
+// console.log(document.body);
+// console.log(document.documentElement);
+// console.log(document.body.childNodes);
+// console.log(document.body.firstChild);
+// console.log(document.body.firstElementChild);
+// console.log(document.body.lastChild);
+
+// console.log(document.querySelector('#current').parentNode);
+// console.log(document.querySelector('#current').parentElement);
+
+// console.log(document.querySelector('#current').parentNode.parentNode);
+
+// console.log(document.querySelector('[data-current="3"]').nextSibling);
+// console.log(document.querySelector('[data-current="3"]').nextElementSibling);
+// console.log(document.querySelector('[data-current="3"]').previousSibling);
+// console.log(document.querySelector('[data-current="3"]').previousElementSibling);
+
+//////////
+
+// for (let node of document.body.childNodes) {
+//     if (node.nodeName == '#text') {
+//         continue;
+//     }
+//     console.log(node);
+// }
+
+///// 47 ///// Рекурсия
+
+function pow(x, n) {
+  let result = 1;
+
+  for (let i = 0; i < n; i++) {
+    result *= x;
+  }
+
+  return result;
+}
+
+function pow(x, n) {
+  if (n === 1) {
+    return x;
+  } else {
+    return x * pow(x, n - 1);
+  }
+}
+
+pow(2, 1); // 2
+pow(2, 2); // 4
+pow(2, 3); // 8
+pow(2, 4); // 16
+
+//////////
+
+let students = {
+  js: [
+    {
+      name: "John",
+      progress: 100,
+    },
+    {
+      name: "Ivan",
+      progress: 60,
+    },
+  ],
+
+  html: {
+    basic: [
+      {
+        name: "Peter",
+        progress: 20,
+      },
+      {
+        name: "Ann",
+        progress: 18,
+      },
+    ],
+
+    pro: [
+      {
+        name: "Sam",
+        progress: 10,
+      },
+    ],
+
+    semi: {
+      students: [
+        {
+          name: "Test",
+          progress: 100,
+        },
+      ],
+    },
+  },
+};
+
+// function getTotalProgressByIteration(data) {
+//   let total = 0;
+//   let students = 0;
+
+//   for (let course of Object.values(data)) {
+//     if (Array.isArray(course)) {
+//       students += course.length;
+
+//       for (let i = 0; i < course.length; i++) {
+//         total += course[i].progress;
+//       }
+//     } else {
+//       for (let subCourse of Object.values(course)) {
+//         students += subCourse.length;
+
+//         for (let i = 0; i < subCourse.length; i++) {
+//           total += subCourse[i].progress;
+//         }
+//       }
+//     }
+//   }
+
+//   return total / students;
+// }
+
+// console.log(getTotalProgressByIteration(students));
+
+//////////
+
+// function getTotalProgressByRecursion(data) {
+//   if (Array.isArray(data)) {
+//     let total = 0;
+
+//     for (let i = 0; i < data.length; i++) {
+//       total += data[i].progress;
+//     }
+
+//     return [total, data.length];
+//   } else {
+//     let total = [0, 0];
+
+//     for (let subData of Object.values(data)) {
+//       const subDataArr = getTotalProgressByRecursion(subData);
+//       total[0] += subDataArr[0];
+//       total[1] += subDataArr[1];
+//     }
+
+//     return total;
+//   }
+// }
+
+// const result = getTotalProgressByRecursion(students);
+
+// console.log(result[0] / result[1]);
+
+
+///// 48 /////
