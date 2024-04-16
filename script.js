@@ -1275,72 +1275,72 @@
 
 ///// 47 ///// Рекурсия
 
-function pow(x, n) {
-  let result = 1;
+// function pow(x, n) {
+//   let result = 1;
 
-  for (let i = 0; i < n; i++) {
-    result *= x;
-  }
+//   for (let i = 0; i < n; i++) {
+//     result *= x;
+//   }
 
-  return result;
-}
+//   return result;
+// }
 
-function pow(x, n) {
-  if (n === 1) {
-    return x;
-  } else {
-    return x * pow(x, n - 1);
-  }
-}
+// function pow(x, n) {
+//   if (n === 1) {
+//     return x;
+//   } else {
+//     return x * pow(x, n - 1);
+//   }
+// }
 
-pow(2, 1); // 2
-pow(2, 2); // 4
-pow(2, 3); // 8
-pow(2, 4); // 16
+// pow(2, 1); // 2
+// pow(2, 2); // 4
+// pow(2, 3); // 8
+// pow(2, 4); // 16
 
-//////////
+// //////////
 
-let students = {
-  js: [
-    {
-      name: "John",
-      progress: 100,
-    },
-    {
-      name: "Ivan",
-      progress: 60,
-    },
-  ],
+// let students = {
+//   js: [
+//     {
+//       name: "John",
+//       progress: 100,
+//     },
+//     {
+//       name: "Ivan",
+//       progress: 60,
+//     },
+//   ],
 
-  html: {
-    basic: [
-      {
-        name: "Peter",
-        progress: 20,
-      },
-      {
-        name: "Ann",
-        progress: 18,
-      },
-    ],
+//   html: {
+//     basic: [
+//       {
+//         name: "Peter",
+//         progress: 20,
+//       },
+//       {
+//         name: "Ann",
+//         progress: 18,
+//       },
+//     ],
 
-    pro: [
-      {
-        name: "Sam",
-        progress: 10,
-      },
-    ],
+//     pro: [
+//       {
+//         name: "Sam",
+//         progress: 10,
+//       },
+//     ],
 
-    semi: {
-      students: [
-        {
-          name: "Test",
-          progress: 100,
-        },
-      ],
-    },
-  },
-};
+//     semi: {
+//       students: [
+//         {
+//           name: "Test",
+//           progress: 100,
+//         },
+//       ],
+//     },
+//   },
+// };
 
 // function getTotalProgressByIteration(data) {
 //   let total = 0;
@@ -1397,5 +1397,43 @@ let students = {
 
 // console.log(result[0] / result[1]);
 
+///// 49 ///// События на мобильных устройствах
 
-///// 48 /////
+//touchstart
+
+//touchmove
+
+//touchend
+
+//touchenter
+
+//touchleave
+
+//touchcancel
+
+// window.addEventListener("DOMContentLoaded", () => {
+  // const box = document.querySelector(".box");
+
+  // box.addEventListener("touchstart", (e) => {
+    // e.preventDefault();
+
+    // console.log("start");
+    // console.log(e.touches);
+    // console.log(e.changedTouches);
+
+    // box.addEventListener("touchmove", (e) => {
+      // e.preventDefault();
+
+      // console.log(e.targetTouches[0].pageX);
+
+    // box.addEventListener("touchend", (e) => {
+    //   e.preventDefault();
+
+    //   console.log("end");
+    // });
+  // });
+// });
+
+// touches
+// targetTouches
+// changedTouches

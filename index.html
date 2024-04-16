@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <style>
+      body {
+        height: 1000px;
+      }
+      .box {
+        width: 150px;
+        height: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
     <div class="first">
-        <button></button>
-        <button id="current"></button>
-        <button></button>
+      <button></button>
+      <button id="current"></button>
+      <button></button>
     </div>
     <div class="second">
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li data-current="3">3</li>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li data-current="3">3</li>
 
-            <li>4</li>
-        </ul>
+        <li>4</li>
+      </ul>
     </div>
 
+    <div class="box">touch me</div>
 
     <p>Hello wrld</p>
 
@@ -28,5 +39,5 @@
         alert(1);
     </script> -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
